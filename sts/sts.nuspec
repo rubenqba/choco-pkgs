@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>sts</id>
+    <title>sts (Install)</title>
+    <version>3.7.2</version>
+    <authors>Eclipse Foundation</authors>
+    <owners>Ruben Bresler</owners>
+    <summary>The Spring Tool Suite is an Eclipse-based development environment that is customized for developing Spring applications. Default install location: `C:\Program Files\SpringToolSuite`</summary>
+    <description>
+    The Spring Tool Suite is an Eclipse-based development environment that is customized for developing Spring applications. It provides a ready-to-use environment to implement, debug, run, and deploy your Spring applications, including integrations for Pivotal tc Server, Pivotal Cloud Foundry, Git, Maven, AspectJ, and comes on top of the latest Eclipse releases.
+
+    ### Optional Installation commands:
+
+    Issue `-packageparameters '/InstallLocation=C:\Path\to\installationdirectory'` to overwrite the default installation directory, e.g. `choco install {{PackageName}} -packageparameters '/InstallLocation=C:\temp'` extracts the package in `C:\temp`.
+    
+    ### Bugs and Features:
+
+    Create an issue or comment to an existing one - [https://github.com/rubenqba/choco-pkgs/issues]() 
+    </description>
+    <projectUrl>http://spring.io/tools/sts</projectUrl>
+    <tags>sts eclipse ide jdk8 springframework</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.eclipse.org/org/documents/epl-v10.php</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://springla.io/wp-content/uploads/2015/01/spring-tool-suite-project-logo.png</iconUrl>
+    <dependencies>
+      <dependency id="jdk8"/>
+    </dependencies>    
+  </metadata>
+  <files>
+    <file src="..\common\UtilFunctions.ps1" target="tools\UtilFunctions.ps1" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
