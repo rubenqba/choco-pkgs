@@ -5,8 +5,8 @@ $packageName= 'STS' # arbitrary name for the package, used in messages
 $packageVersion = '3.7.2'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $url        = 'http://dist.springsource.com/release/STS/3.7.2.RELEASE/dist/e4.5/spring-tool-suite-3.7.2.RELEASE-e4.5.1-win32.zip'
-#$url64      = 'http://dist.springsource.com/release/STS/3.7.2.RELEASE/dist/e4.5/spring-tool-suite-3.7.2.RELEASE-e4.5.1-win32-x86_64.zip'
-$url64      = 'http://172.24.9.167/resources/sts/v3.7.2/spring-tool-suite-3.7.2.RELEASE-e4.5.1-win32-x86_64.zip'
+$url64      = 'http://dist.springsource.com/release/STS/3.7.2.RELEASE/dist/e4.5/spring-tool-suite-3.7.2.RELEASE-e4.5.1-win32-x86_64.zip'
+#$url64      = 'http://172.24.9.167/resources/sts/v3.7.2/spring-tool-suite-3.7.2.RELEASE-e4.5.1-win32-x86_64.zip'
 $global:installLocation = "C:\tools\SpringToolSuite\v$packageVersion"
 
 $checksum64     = "27e597792ff04392d2f255814716e8a7d4150b26"
