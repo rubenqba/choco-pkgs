@@ -3,19 +3,15 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
-    <id>sts</id>
-    <title>sts (Install)</title>
+    <id>SpringToolSuite</id>
+    <title>STS (Install)</title>
     <version>3.7.2</version>
-    <authors>Eclipse Foundation</authors>
+    <authors>Pivotal Software</authors>
     <owners>Ruben Bresler</owners>
-    <summary>The Spring Tool Suite is an Eclipse-based development environment that is customized for developing Spring applications. Default install location: `C:\Program Files\SpringToolSuite`</summary>
+    <summary>The Spring Tool Suite is an Eclipse-based development environment that is customized for developing Spring applications. Default install location: `C:\Tools\SpringToolSuite`</summary>
     <description>
     The Spring Tool Suite is an Eclipse-based development environment that is customized for developing Spring applications. It provides a ready-to-use environment to implement, debug, run, and deploy your Spring applications, including integrations for Pivotal tc Server, Pivotal Cloud Foundry, Git, Maven, AspectJ, and comes on top of the latest Eclipse releases.
 
-    ### Optional Installation commands:
-
-    Issue `-packageparameters '/InstallLocation=C:\Path\to\installationdirectory'` to overwrite the default installation directory, e.g. `choco install {{PackageName}} -packageparameters '/InstallLocation=C:\temp'` extracts the package in `C:\temp`.
-    
     ### Bugs and Features:
 
     Create an issue or comment to an existing one - [https://github.com/rubenqba/choco-pkgs/issues]() 
