@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>PivotalTCServer</id>
+    <title>PivotalTCServer (Install)</title>
+    <version>3.1.2</version>
+    <authors>Pivotal Software</authors>
+    <owners>Ruben Bresler</owners>
+    <summary>This edition of tc Server is made up of the following features:
+
+     * The tc Runtime application server.
+     * Supporting utilities for creating and starting tc Runtime instances.
+     * Templates for creating specific types of tc Runtime server instances, such as SSL- or cluster-enabled.
+     * Spring Insight, an application that provides you with real-time visibility into the behavior and performance of
+      your applications.
+
+    Default install location: `C:\Tools\PivotalTCServer`</summary>
+    <description>
+    ### Bugs and Features:
+
+    Create an issue or comment to an existing one - [https://github.com/rubenqba/choco-pkgs/issues]() 
+    </description>
+    <projectUrl>http://www.gopivotal.com/products/pivotal-tc-server</projectUrl>
+    <tags>sts tc pivotal eclipse jdk8 springframework</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.eclipse.org/org/documents/epl-v10.php</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <dependencies>
+      <dependency id="jdk8"/>
+    </dependencies>    
+  </metadata>
+  <files>
+    <file src="..\common\UtilFunctions.ps1" target="tools\UtilFunctions.ps1" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
