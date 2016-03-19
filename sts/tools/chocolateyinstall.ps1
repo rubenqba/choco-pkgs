@@ -9,7 +9,7 @@ $url64      = "http://dist.springsource.com/release/STS/$packageVersion.RELEASE/
 #$url64      = 'http://172.24.9.167/resources/sts/v$packageVersion/spring-tool-suite-$packageVersion.RELEASE-e4.5.1-win32-x86_64.zip'
 $global:installLocation = "C:\tools\SpringToolSuite\v$packageVersion"
 
-$checksum64     = "27e597792ff04392d2f255814716e8a7d4150b26"
+$checksum64     = "58866072800a185168b1827963660f7d8eb134b5"
 
 Write-Host "$toolsDir"
 Write-Host "$(Split-Path -Leaf $url64)"
