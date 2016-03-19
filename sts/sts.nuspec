@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>SpringToolSuite</id>
     <title>STS (Install)</title>
-    <version>3.7.2</version>
+    <version>3.7.3</version>
     <authors>Pivotal Software</authors>
     <owners>Ruben Bresler</owners>
     <summary>The Spring Tool Suite is an Eclipse-based development environment that is customized for developing Spring applications. Default install location: `C:\Tools\SpringToolSuite`</summary>
