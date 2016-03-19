@@ -4,8 +4,8 @@
 $packageName= 'STS' # arbitrary name for the package, used in messages
 $packageVersion = '3.7.3'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'http://dist.springsource.com/release/STS/$packageVersion.RELEASE/dist/e4.5/spring-tool-suite-$packageVersion.RELEASE-e4.5.1-win32.zip'
-$url64      = 'http://dist.springsource.com/release/STS/$packageVersion.RELEASE/dist/e4.5/spring-tool-suite-$packageVersion.RELEASE-e4.5.1-win32-x86_64.zip'
+$url        = "http://dist.springsource.com/release/STS/$packageVersion.RELEASE/dist/e4.5/spring-tool-suite-$packageVersion.RELEASE-e4.5.1-win32.zip"
+$url64      = "http://dist.springsource.com/release/STS/$packageVersion.RELEASE/dist/e4.5/spring-tool-suite-$packageVersion.RELEASE-e4.5.1-win32-x86_64.zip"
 #$url64      = 'http://172.24.9.167/resources/sts/v$packageVersion/spring-tool-suite-$packageVersion.RELEASE-e4.5.1-win32-x86_64.zip'
 $global:installLocation = "C:\tools\SpringToolSuite\v$packageVersion"
 
