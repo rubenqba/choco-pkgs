@@ -6,7 +6,7 @@
     <id>SpringToolSuite</id>
     <title>STS (Install)</title>
     <version>3.7.3</version>
-    <authors>Pivotal Software</authors>
+    <authors>Rubén Bresler</authors>
     <owners>Ruben Bresler</owners>
     <summary>The Spring Tool Suite is an Eclipse-based development environment that is customized for developing Spring applications. Default install location: `C:\Tools\SpringToolSuite`</summary>
     <description>
